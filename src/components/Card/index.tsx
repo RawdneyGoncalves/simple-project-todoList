@@ -1,5 +1,10 @@
-export default function Card() {
+type CardProps = {
+    tittle: String;
+}
+
+
+export default function Card({ tittle }: CardProps) {
 return(
-    <div>Card</div>
+    <div>{tittle}</div>
 )
 }

@@ -12,7 +12,7 @@ function App() {
 <button>Adicionar</button>
 
    </div>
-   <Card />
+   <Card title= 'Fazer café' />
     </div>
   )
 }
