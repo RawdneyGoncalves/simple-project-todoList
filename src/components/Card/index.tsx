@@ -1,3 +1,5 @@
+import './styles.css'
+
 type CardProps = {
     tittle: String;
 }
@@ -5,6 +7,14 @@ type CardProps = {
 
 export default function Card({ tittle }: CardProps) {
 return(
-    <div>{tittle}</div>
+    <div className="card">
+<h2>fazer café</h2>
+<div className="card-buttons">
+    <button>Completar</button>
+    <button>Deletar</button>
+</div>
+
+
+    </div>
 )
 }
